@@ -1,7 +1,26 @@
 library widgets;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
+import 'package:flutter/material.dart';
+import 'package:styles/styles.dart';
+
+class AppElevatedButton extends StatelessWidget {
+  const AppElevatedButton({
+    Key? key,
+    required this.label,
+    this.onPressed,
+  }) : super(key: key);
+
+  final VoidCallback? onPressed;
+  final String label;
+
+  @override
+  Widget build(BuildContext context) {
+    return ElevatedButton(
+      onPressed: onPressed,
+      style: ElevatedButton.styleFrom(
+        primary: AppColors.primary,
+      ),
+      child: Text(label),
+    );
+  }
 }
