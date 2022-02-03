@@ -1,0 +1,4 @@
+name: melos_task
+
+packages:
+  - packages/**
