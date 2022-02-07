@@ -1,6 +1,7 @@
 name: melos_task
 
 packages:
+  - apps/**
   - features/**
   - libraries/**
 
