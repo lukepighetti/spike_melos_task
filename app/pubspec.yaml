@@ -14,11 +14,8 @@ dependencies:
 
   cupertino_icons: ^1.0.2
 
-  styles:
-    path: packages/styles
-
-  widgets:
-    path: packages/widgets
+  home_screen:
+    path: ../features/home_screen
 
 dev_dependencies:
   flutter_test:
