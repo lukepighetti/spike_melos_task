@@ -18,3 +18,7 @@ tasks:
     cmds:
       - mason make library
       - melos bootstrap
+
+  graph-dependencies:
+    cmds:
+      - melos list --all --graph 
