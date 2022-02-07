@@ -1,7 +1,7 @@
-name: analysis
-description: A new Flutter package project.
+name: "new_feature"
+description: Core widgets package
 version: 0.0.1
-publish_to: none
+publish_to: "none"
 
 environment:
   sdk: ">=2.16.0 <3.0.0"
@@ -10,12 +10,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-    
-  flutter_lints: ^1.0.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
+  analysis:
+    path: ../../libraries/analysis
 
 flutter:

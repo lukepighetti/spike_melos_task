@@ -4,3 +4,7 @@ tasks:
   install-melos:
     cmds:
       - dart pub global activate melos
+
+  install-mason:
+    cmds:
+      - dart pub global activate mason_cli

@@ -6,3 +6,4 @@ packages:
 
 scripts:
   analyze: melos exec -- "dart analyze ."
+  get: melos exec -- "flutter pub get"

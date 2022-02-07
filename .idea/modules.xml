@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/libraries/analysis/melos_analysis.iml" filepath="$PROJECT_DIR$/libraries/analysis/melos_analysis.iml" />
       <module fileurl="file://$PROJECT_DIR$/features/home_screen/melos_home_screen.iml" filepath="$PROJECT_DIR$/features/home_screen/melos_home_screen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/features/new_feature/melos_new_feature.iml" filepath="$PROJECT_DIR$/features/new_feature/melos_new_feature.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/new_library/melos_new_library.iml" filepath="$PROJECT_DIR$/libraries/new_library/melos_new_library.iml" />
       <module fileurl="file://$PROJECT_DIR$/libraries/styles/melos_styles.iml" filepath="$PROJECT_DIR$/libraries/styles/melos_styles.iml" />
       <module fileurl="file://$PROJECT_DIR$/libraries/widgets/melos_widgets.iml" filepath="$PROJECT_DIR$/libraries/widgets/melos_widgets.iml" />
       <module fileurl="file://$PROJECT_DIR$/melos_melos_task.iml" filepath="$PROJECT_DIR$/melos_melos_task.iml" />
