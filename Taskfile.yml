@@ -8,3 +8,13 @@ tasks:
   install-mason:
     cmds:
       - dart pub global activate mason_cli
+
+  create-feature:
+    cmds:
+      - mason make feature
+      - melos bootstrap
+
+  create-library:
+    cmds:
+      - mason make library
+      - melos bootstrap
