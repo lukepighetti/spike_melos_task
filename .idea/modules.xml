@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/packages/styles/melos_styles.iml" filepath="$PROJECT_DIR$/packages/styles/melos_styles.iml" />
-      <module fileurl="file://$PROJECT_DIR$/packages/widgets/melos_widgets.iml" filepath="$PROJECT_DIR$/packages/widgets/melos_widgets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/analysis/melos_analysis.iml" filepath="$PROJECT_DIR$/libraries/analysis/melos_analysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/features/home_screen/melos_home_screen.iml" filepath="$PROJECT_DIR$/features/home_screen/melos_home_screen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/styles/melos_styles.iml" filepath="$PROJECT_DIR$/libraries/styles/melos_styles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/widgets/melos_widgets.iml" filepath="$PROJECT_DIR$/libraries/widgets/melos_widgets.iml" />
       <module fileurl="file://$PROJECT_DIR$/melos_melos_task.iml" filepath="$PROJECT_DIR$/melos_melos_task.iml" />
     </modules>
   </component>

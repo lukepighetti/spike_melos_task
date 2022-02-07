@@ -1,7 +1,0 @@
-name: melos_task
-
-packages:
-  - packages/**
-
-scripts:
-  analyze: melos exec -- "dart analyze ."
