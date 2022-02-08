@@ -3,3 +3,5 @@ bricks:
     path: bricks/feature
   library:
     path: bricks/library
+  tool:
+    path: bricks/tool

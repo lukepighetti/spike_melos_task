@@ -4,6 +4,7 @@ packages:
   - apps/**
   - features/**
   - libraries/**
+  - tools/**
 
 scripts:
   analyze: melos exec -- "dart analyze ."

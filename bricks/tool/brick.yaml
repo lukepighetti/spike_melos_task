@@ -1,0 +1,9 @@
+name: tool
+description: A new brick created with the Mason CLI.
+version: 0.1.0+1
+vars:
+  name:
+    type: string
+    description: name
+    default: new_tool
+    prompt: What is this tool called?
