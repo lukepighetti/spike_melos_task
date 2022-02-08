@@ -19,10 +19,10 @@ tasks:
       - mason make library
       - melos bootstrap
 
-  graph-dependencies:
+  graph:
     cmds:
-      - melos list --all --graph 
+      - melos list --all --graph
 
-  gviz-dependencies:
+  gviz:
     cmds:
-      - melos list --all --gviz 
+      - echo https://dreampuf.github.io/GraphvizOnline/#$(melos list --all --gviz | python3 -c "import urllib.parse, sys; print(urllib.parse.quote(sys.stdin.read()))")
