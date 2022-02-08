@@ -22,3 +22,7 @@ tasks:
   graph-dependencies:
     cmds:
       - melos list --all --graph 
+
+  gviz-dependencies:
+    cmds:
+      - melos list --all --gviz 
