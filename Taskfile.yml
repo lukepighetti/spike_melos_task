@@ -31,3 +31,7 @@ tasks:
   gviz:
     cmds:
       - dart tools/gviz_url/bin/main.dart "$(melos list --all --gviz)"
+
+  focus:
+    cmds:
+      - code $(melos list --all --scope={{.CLI_ARGS}} --include-dependencies --parsable)
